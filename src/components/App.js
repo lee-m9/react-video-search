@@ -8,7 +8,7 @@ class App extends React.Component {
   state = { videos: [], selectedVideo: null };
 
   componentDidMount() {
-    this.onSearchSubmit("fifa worldcup"); //Default search on initial load
+    this.onSearchSubmit("Leo Messi"); //Default search on initial load
   }
 
   onSearchSubmit = async (term) => {
